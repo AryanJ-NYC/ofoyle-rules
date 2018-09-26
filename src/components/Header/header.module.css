@@ -1,0 +1,9 @@
+.brandtext {
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+}
+
+.header {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  justify-content: center;
+}

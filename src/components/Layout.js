@@ -1,11 +1,10 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
 
 const TemplateWrapper = ({ children }) => (
-  <Container>
-    <Helmet title="Home | Gatsby + Netlify CMS" />
+  <Container fluid>
+    <Helmet title="Marco Island Properties | Foy Properties" />
     <div>{children}</div>
   </Container>
 )

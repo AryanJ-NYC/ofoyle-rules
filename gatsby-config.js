@@ -28,6 +28,14 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-google-fonts',
+      options: {
+        fonts: [
+          'Montserrat',
+        ]
+      }
+    },
+    {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,
