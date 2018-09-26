@@ -5,5 +5,15 @@
 
 .header {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  justify-content: center;
+  justify-content: center !important;
+}
+
+.link:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
 }

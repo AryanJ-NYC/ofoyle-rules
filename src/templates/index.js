@@ -1,28 +1,25 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
+import { Link, graphql } from 'gatsby';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from '../components/Header/Header';
 import Layout from '../components/Layout';
 
-export const IndexPageTemplate = ({ title }) => {
+export const IndexPageTemplate = () => {
   return (
-    <Header brand={title} />
+    <div></div>
   );
 }
 
-IndexPageTemplate.propTypes = {
-  title: PropTypes.string.isRequired,
-}
-
 const IndexPage = ({ data }) => {
-  const { markdownRemark: post } = data;
-
+  const { allMarkdownRemark, markdownRemark: post } = data;
+  const { edges } = allMarkdownRemark;
   return (
     <Layout>
       <IndexPageTemplate
         title={post.frontmatter.title}
       />
+      {
+        edges.map(({ node }) => <Link key={node.id} to={node.fields.slug}>{node.frontmatter.title}</Link>)
+      }
     </Layout>
   );
 }
@@ -31,6 +28,19 @@ export default IndexPage;
 
 export const indexPageQuery = graphql`
   query IndexPage($id: String!) {
+    allMarkdownRemark(filter: { frontmatter: { templateKey: { eq: "property" }}}) {
+      edges {
+        node {
+          id
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+          }
+        }
+      }
+    }
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {

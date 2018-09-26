@@ -1,11 +1,27 @@
 import React from 'react';
 import { Navbar } from 'react-bootstrap';
 import styles from './header.module.css';
+import { Link, StaticQuery, graphql } from 'gatsby';
 
-const Header = ({ brand }) => (
-  <Navbar bg="dark" variant="dark" className={styles.header}>
-    <Navbar.Brand className={styles.brandtext}>{brand}</Navbar.Brand>
-  </Navbar>
+const Header = () => (
+  <StaticQuery
+    query={graphql`
+    query HeaderQuery {
+      markdownRemark(frontmatter:{ templateKey:{ eq:"index" }}) {
+        frontmatter {
+          title
+        }
+      }
+    }
+    `}
+    render={({ markdownRemark: { frontmatter: { title } } }) => (
+      <Navbar bg="light" variant="light" className={styles.header}>
+        <Navbar.Brand className={styles.brandtext}>
+          <Link to="/" className={styles.link}>{title}</Link>
+        </Navbar.Brand>
+      </Navbar>
+    )}
+  />
 );
 
 export default Header;
