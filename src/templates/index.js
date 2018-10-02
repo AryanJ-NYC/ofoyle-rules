@@ -6,8 +6,7 @@ import Layout from '../components/Layout';
 import PropertyCard from '../components/PropertyCard/PropertyCard';
 
 const IndexPage = ({ data }) => {
-  const { allMarkdownRemark, markdownRemark: post } = data;
-  const { edges } = allMarkdownRemark;
+  const { allMarkdownRemark: { edges } } = data;
   return (
     <Layout>
       <Row>
@@ -33,7 +32,7 @@ const IndexPage = ({ data }) => {
 export default IndexPage;
 
 export const indexPageQuery = graphql`
-  query IndexPage($id: String!) {
+  query IndexPage {
     allMarkdownRemark(filter: { frontmatter: { templateKey: { eq: "property" }}}) {
       edges {
         node {
@@ -47,12 +46,6 @@ export const indexPageQuery = graphql`
             images
           }
         }
-      }
-    }
-    markdownRemark(id: { eq: $id }) {
-      html
-      frontmatter {
-        title
       }
     }
   }
