@@ -5,11 +5,13 @@ import Header from './Header/Header';
 import './layout.css';
 
 const TemplateWrapper = ({ children }) => (
-  <Container fluid>
-    <Helmet title="Marco Island Properties | Foy Properties" />
+  <>
     <Header />
-    <div>{children}</div>
-  </Container>
+    <Helmet title="Marco Island Properties | Foy Properties" />
+    <Container fluid>
+      <div>{children}</div>
+    </Container>
+  </>
 )
 
 export default TemplateWrapper

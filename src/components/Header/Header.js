@@ -15,7 +15,7 @@ const Header = () => (
     }
     `}
     render={({ markdownRemark: { frontmatter: { title } } }) => (
-      <Navbar bg="light" variant="light" className={styles.header}>
+      <Navbar bg="gold" variant="dark" className={styles.header}>
         <Navbar.Brand className={styles.brandtext}>
           <Link to="/" className={styles.link}>{title}</Link>
         </Navbar.Brand>

@@ -5,3 +5,7 @@ a {
 a:hover {
   text-decoration: none;
 }
+
+.bg-gold {
+  background-color: #C1AE7C;
+}
