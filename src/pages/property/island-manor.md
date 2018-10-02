@@ -2,8 +2,6 @@
 templateKey: property
 title: Island Manor, J1 - ISMJ1
 ---
-# Overview
-
 This cozy, 2 bedroom 1 bath condo is conveniently located in the center on the island, in close proximity to public beach access, shopping, numerous restaurants and everything our Island Paradise has to offer. Island Manor is known for its beautiful pool, manicured grounds and clubhouse.
 
 This condo will comfortably sleep 4 guests with one queen size bed and two twin beds. Each of these rooms is decorated in fresh, vibrant colors you will be sure to enjoy.
