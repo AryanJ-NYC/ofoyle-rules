@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navbar } from 'react-bootstrap';
-import styles from './header.module.css';
 import { Link, StaticQuery, graphql } from 'gatsby';
+import styles from './header.module.css';
 
 const Header = () => (
   <StaticQuery

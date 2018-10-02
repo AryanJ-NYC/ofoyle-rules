@@ -5,20 +5,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from '../components/Layout';
 import PropertyCard from '../components/PropertyCard/PropertyCard';
 
-export const IndexPageTemplate = () => {
-  return (
-    <div></div>
-  );
-}
-
 const IndexPage = ({ data }) => {
   const { allMarkdownRemark, markdownRemark: post } = data;
   const { edges } = allMarkdownRemark;
   return (
     <Layout>
-      <IndexPageTemplate
-        title={post.frontmatter.title}
-      />
       <Row>
       {
         edges.map(({ node }) => (
