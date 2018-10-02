@@ -12,5 +12,6 @@ a:hover {
 }
 
 .bg-gold {
-  background-color: #C1AE7C;
+  background: #c2b280;
+  background-image: url("zenbg.png");
 }
