@@ -52,7 +52,10 @@ export const indexPageQuery = graphql`
           }
           frontmatter {
             title
-            images
+            images {
+              image
+              test
+            }
           }
         }
       }

@@ -2,7 +2,9 @@
 templateKey: property
 title: 'Apollo #208'
 images:
-  - /img/apollo208_1.jpg
+  - image: /img/apollo208_1.jpg
+    test: hello
+
 ---
 Your ticket to paradise is just a short drive from Ft. Myers, Florida, Regional Southwest Airport. At Apollo on the Beach Condo, unit 208, you'll have your own private, premiere over-sized balcony with southwest exposure, providing an unobstructed view of Marco Island's beautiful 3 1/2 mile white sand crescent beach. Unit 208 is a one bedroom/bath, WiFi, new tile, new furniture, and two flat screens/DVD TVs. The kitchen is fully equipped with a newer refrigerator, stove, dishwasher and microwave. The Sunset Grille, voted 'best happy hour' on the island, is located on the ground floor. The Apollo is the only condo on Marco Beach that allows weekly rentals with the convenience of a restaurant on the premises!
 
