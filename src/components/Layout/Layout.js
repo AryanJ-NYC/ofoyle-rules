@@ -9,7 +9,7 @@ const TemplateWrapper = ({ children }) => (
   <>
     <Header />
     <Helmet title="Marco Island Properties | Foy Properties" />
-    <Container>
+    <Container fluid style={{ padding: 0 }}>
       <div>{children}</div>
     </Container>
     <Footer />

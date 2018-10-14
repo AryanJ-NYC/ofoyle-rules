@@ -1,12 +1,15 @@
 .brandtext {
-  font-size: 2.5rem;
+  font-size: 3.5vw;
   font-weight: bold;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.85rem;
   text-transform: uppercase;
 }
 
 .header {
   justify-content: center !important;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
 }
 
 .link:hover {

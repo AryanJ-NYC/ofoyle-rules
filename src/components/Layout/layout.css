@@ -1,7 +1,4 @@
 body {
-  background: #fff7de;
-  background-image: url("./ZenBG-1.png"), url("./ZenBG-2.png");
-  background-repeat: repeat-x, repeat;
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   letter-spacing: 0.1rem;
 }
@@ -12,4 +9,12 @@ a {
 
 a:hover {
   text-decoration: none;
+}
+
+.carousel-inner {
+  width: inherit;
+}
+
+.navbar-brand {
+  margin: 0;
 }
