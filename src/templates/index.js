@@ -11,7 +11,7 @@ const IndexPage = ({ data }) => {
   const imageInfo = edges
     .map(edge => edge.node.frontmatter)
     .filter(frontmatter => Array.isArray(frontmatter.images) && frontmatter.images.length)
-    .map(({ images, title }) => ({ imagePath: images[0], title }));
+    .map(({ images, title }) => ({ imagePath: images[0].imagePath, title }));
   return (
     <Layout>
       <CarouselComponent images={imageInfo} />
@@ -24,7 +24,7 @@ const IndexPage = ({ data }) => {
               <Link to={node.fields.slug}>
                 <PropertyCard
                   copy={node.excerpt}
-                  imgPath={node.frontmatter.images}
+                  imgPath={node.frontmatter.images[0].imagePath}
                   title={node.frontmatter.title}
                 />
               </Link>
@@ -52,7 +52,9 @@ export const indexPageQuery = graphql`
           }
           frontmatter {
             title
-            images
+            images {
+              imagePath
+            }
           }
         }
       }

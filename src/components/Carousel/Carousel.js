@@ -3,7 +3,6 @@ import { Carousel, Image } from 'react-bootstrap';
 import styles from './carousel.module.css';
 
 const CarouselComponent = ({ images }) => {
-  console.log({images});
   const carouselItems = images.map(({ imagePath, title }) => (
     <Carousel.Item>
       <Image

@@ -28,7 +28,7 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "property"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Images", name: "images", widget: "list", field: { label: "Image", name: "image", widget: "image"}}
+      - {label: "Images", name: "images", widget: "list", fields: [{label: ImagePath, name: imagePath, widget: image}, {label: Test, name: test, widget: hidden, required: false}]}
 
   - name: "pages"
     label: "Pages"
