@@ -1,5 +1,5 @@
-body {
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+body, h1, h2, h3, h4 {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif !important;
   letter-spacing: 0.1rem;
 }
 
