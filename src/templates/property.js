@@ -1,16 +1,17 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Content, { HTMLContent } from '../components/Content';
 import Layout from '../components/Layout';
 
 export const PropertyPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
   return (
-    <Fragment>
+    <>
       <h1>{title}</h1>
       <PageContent content={content} />
-    </Fragment>
+    </>
   );
 }
 

@@ -4,9 +4,14 @@
 }
 
 .header {
+  font-size: 3.5vmax;
   letter-spacing: 0.85rem;
   text-align: center;
   text-transform: uppercase;
+}
+
+.footerContainer {
+  margin-top: 2rem;
 }
 
 .form {

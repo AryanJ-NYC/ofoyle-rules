@@ -16,7 +16,7 @@ const IndexPage = ({ data }) => {
     <Layout>
       <CarouselComponent images={imageInfo} />
       <Container>
-        <h1 style={{ letterSpacing: '0.85rem', textAlign: 'center', textTransform: 'uppercase' }}>Our Properties</h1>
+        <h1 style={{ fontSize: '3.5vmax', letterSpacing: '0.85rem', textAlign: 'center', textTransform: 'uppercase' }}>Our Properties</h1>
         <Row>
         {
           edges.map(({ node }) => (

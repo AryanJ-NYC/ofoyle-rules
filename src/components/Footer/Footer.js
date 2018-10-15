@@ -80,7 +80,7 @@ export default class Footer extends Component {
 
   render() {
     return (
-      <footer>
+      <footer className={styles.footerContainer}>
         <form
           name="contact"
           method="POST"
