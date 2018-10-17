@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import { Container } from 'react-bootstrap';
 import ImageGallery from 'react-image-gallery';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-image-gallery/styles/css/image-gallery.css';
 import Content, { HTMLContent } from '../components/Content';
 import Layout from '../components/Layout';

@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
 import { Col, Container, Row } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from '../components/Layout';
 import PropertyCard from '../components/PropertyCard/PropertyCard';
 import CarouselComponent from '../components/Carousel/Carousel';
