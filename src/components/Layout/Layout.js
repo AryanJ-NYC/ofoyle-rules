@@ -9,7 +9,10 @@ import Footer from '../Footer';
 const TemplateWrapper = ({ children }) => (
   <>
     <Header />
-    <Helmet title="Marco Island Properties | Foy Properties" />
+    <Helmet>
+      <title>Marco Island Properties | Foy Properties</title>
+      <meta name="description" content="A listing of rental properties available in Marco Island, FL, USA" />
+    </Helmet>
     <Container fluid style={{ padding: 0 }}>
       <div>{children}</div>
     </Container>
