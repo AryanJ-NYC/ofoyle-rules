@@ -40,6 +40,17 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `The Foy Properties`,
+        short_name: `FoyProperty`,
+        start_url: `/`,
+        background_color: `#fff`,
+        display: `fullscreen`,
+      },
+    },
+    `gatsby-plugin-offline`,
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }
