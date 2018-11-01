@@ -19,9 +19,8 @@ export default class Footer extends Component {
 
   handleSubmit = e => {
     e.preventDefault();
-    const form = e.target;
     const { isSubmitted, ...formValues } = this.state;
-    fetch(form.action, {
+    fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({
@@ -34,8 +33,15 @@ export default class Footer extends Component {
   }
 
   renderForm = () => (
-    <>
+    <form
+      name="contact"
+      method="POST"
+      data-netlify="true"
+      onSubmit={this.handleSubmit}
+      data-netlify-honeypot="bot-field"
+    >
       <input type="hidden" name="form-name" value="contact" />
+      <div hidden><input name="bot-field" onChange={this.handleChange} /></div>
       <Form.Row>
         <Col sm={12} md={6}>
           <Form.Group controlId="firstName">
@@ -71,7 +77,7 @@ export default class Footer extends Component {
       <div className={styles.buttonContainer}>
         <Button type="submit" variant="primary">Submit</Button>
       </div>
-    </>
+    </form>
   );
 
   renderThankYou = (copy) => (
@@ -81,18 +87,10 @@ export default class Footer extends Component {
   render() {
     return (
       <footer className={styles.footerContainer}>
-        <form
-          name="contact"
-          method="POST"
-          data-netlify="true"
-          onSubmit={this.handleSubmit}
-          netlify-honeypot="bot-field"
-        >
-          <Container className={styles.form}>
-            <h1 className={styles.header}>Contact Us</h1>
-            { this.state.isSubmitted ? this.renderThankYou(this.props.thankYouCopy) : this.renderForm() }
-          </Container>
-        </form>
+        <Container className={styles.form}>
+          <h1 className={styles.header}>Contact Us</h1>
+          { this.state.isSubmitted ? this.renderThankYou(this.props.thankYouCopy) : this.renderForm() }
+        </Container>
       </footer>
     );
   }
