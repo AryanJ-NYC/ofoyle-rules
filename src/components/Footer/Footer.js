@@ -42,6 +42,7 @@ export default class Footer extends Component {
     >
       <input type="hidden" name="form-name" value="contact" />
       <div hidden><input name="bot-field" onChange={this.handleChange} /></div>
+      <div data-netlify-recaptcha></div>
       <Form.Row>
         <Col sm={12} md={6}>
           <Form.Group controlId="firstName">
