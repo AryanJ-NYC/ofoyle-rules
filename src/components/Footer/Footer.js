@@ -74,8 +74,8 @@ export default class Footer extends Component {
     </>
   );
 
-  renderThankYou = () => (
-    <p>Thank you for inquiry! We will reach out as soon as we can.</p>
+  renderThankYou = (copy) => (
+    <p>{copy}</p>
   );
 
   render() {
@@ -90,7 +90,7 @@ export default class Footer extends Component {
         >
           <Container className={styles.form}>
             <h1 className={styles.header}>Contact Us</h1>
-            { this.state.isSubmitted ? this.renderThankYou() : this.renderForm() }
+            { this.state.isSubmitted ? this.renderThankYou(this.props.thankYouCopy) : this.renderForm() }
           </Container>
         </form>
       </footer>

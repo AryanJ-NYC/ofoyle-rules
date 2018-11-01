@@ -26,4 +26,4 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Thank You Text", name: "thankYouCopy", widget: "string"}
