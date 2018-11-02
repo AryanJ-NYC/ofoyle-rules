@@ -6,6 +6,7 @@ import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
 import Content, { HTMLContent } from '../components/Content';
 import Layout from '../components/Layout';
+import OurProperties from '../components/OurProperties/OurProperties';
 
 export const PropertyPageTemplate = ({ images, title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
@@ -28,23 +29,25 @@ PropertyPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
 }
 
-const PropertyPage = ({ data }) => {
-  const { markdownRemark: post } = data;
+const PropertyPage = ({ data, location }) => {
+  const { allMarkdownRemark: { edges }, markdownRemark: property } = data;
+  const otherProperties = edges.filter(edge => edge.node.fields.slug !== location.pathname);
   return (
     <Layout>
       <PropertyPageTemplate
-        content={post.html}
+        content={property.html}
         contentComponent={HTMLContent}
-        images={post.frontmatter.images}
-        title={post.frontmatter.title}
+        images={property.frontmatter.images}
+        title={property.frontmatter.title}
       />
+      <OurProperties edges={otherProperties} title="Other Properties" />
     </Layout>
   );
 }
 
 export default PropertyPage;
 
-export const indexPageQuery = graphql`
+export const propertyPageQuery = graphql`
   query PropertyPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
@@ -52,6 +55,25 @@ export const indexPageQuery = graphql`
         title
         images {
           imagePath
+        }
+      }
+    },
+    allMarkdownRemark(filter: {
+      frontmatter: { templateKey: { eq: "property" }}
+    }) {
+      edges {
+        node {
+          id
+          excerpt(pruneLength:160)
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            images {
+              imagePath
+            }
+          }
         }
       }
     }
