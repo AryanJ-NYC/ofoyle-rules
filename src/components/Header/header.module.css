@@ -2,7 +2,9 @@
   font-size: 3vmax;
   font-weight: bold;
   letter-spacing: 0.85rem;
+  text-align: center;
   text-transform: uppercase;
+  white-space: normal;
 }
 
 .header {
