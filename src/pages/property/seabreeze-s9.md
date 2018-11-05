@@ -1,30 +1,30 @@
 ---
 templateKey: property
-title: 'Seabreeze South S-9'
+title: Seabreeze South S-9
 images:
-    - imagePath: /img/seabreeze-s9/0083280748.JPG
-      test: hello
-    - imagePath: /img/seabreeze-s9/0481630886.JPG
-    - imagePath: /img/seabreeze-s9/0868190484.jpg
-    - imagePath: /img/seabreeze-s9/1704930640.JPG
-    - imagePath: /img/seabreeze-s9/2018770676.JPG
-    - imagePath: /img/seabreeze-s9/2880660287.JPG
-    - imagePath: /img/seabreeze-s9/3001310221.JPG
-    - imagePath: /img/seabreeze-s9/3090510662.JPG
-    - imagePath: /img/seabreeze-s9/3315150680.JPG
-    - imagePath: /img/seabreeze-s9/3364530804.JPG
-    - imagePath: /img/seabreeze-s9/3927440346.JPG
-    - imagePath: /img/seabreeze-s9/4122730166.JPG
-    - imagePath: /img/seabreeze-s9/4307310167.JPG
-    - imagePath: /img/seabreeze-s9/4564340482.JPG
-    - imagePath: /img/seabreeze-s9/5292040347.JPG
-    - imagePath: /img/seabreeze-s9/5554010343.JPG
-    - imagePath: /img/seabreeze-s9/5912300596.JPG
-    - imagePath: /img/seabreeze-s9/6567920500.jpg
-    - imagePath: /img/seabreeze-s9/7329330753.JPG
-    - imagePath: /img/seabreeze-s9/7715710301.JPG
-    - imagePath: /img/seabreeze-s9/7907320882.JPG
-    - imagePath: /img/seabreeze-s9/8609730902.JPG
+  - imagePath: /img/seabreeze-s9/0083280748.JPG
+    test: hello
+  - imagePath: /img/seabreeze-s9/0481630886.JPG
+  - imagePath: /img/seabreeze-s9/0868190484.jpg
+  - imagePath: /img/seabreeze-s9/1704930640.JPG
+  - imagePath: /img/seabreeze-s9/2018770676.JPG
+  - imagePath: /img/seabreeze-s9/2880660287.JPG
+  - imagePath: /img/seabreeze-s9/3001310221.JPG
+  - imagePath: /img/seabreeze-s9/3090510662.JPG
+  - imagePath: /img/seabreeze-s9/3315150680.JPG
+  - imagePath: /img/seabreeze-s9/3364530804.JPG
+  - imagePath: /img/seabreeze-s9/3927440346.JPG
+  - imagePath: /img/seabreeze-s9/4122730166.JPG
+  - imagePath: /img/seabreeze-s9/4307310167.JPG
+  - imagePath: /img/seabreeze-s9/4564340482.JPG
+  - imagePath: /img/seabreeze-s9/5292040347.JPG
+  - imagePath: /img/seabreeze-s9/5554010343.JPG
+  - imagePath: /img/seabreeze-s9/5912300596.JPG
+  - imagePath: /img/seabreeze-s9/6567920500.jpg
+  - imagePath: /img/seabreeze-s9/7329330753.JPG
+  - imagePath: /img/seabreeze-s9/7715710301.JPG
+  - imagePath: /img/seabreeze-s9/7907320882.JPG
+  - imagePath: /img/seabreeze-s9/8609730902.JPG
 ---
 Welcome to a romantic setting in the tropics. This 500 square foot, 2nd floor condo sleeps two, with one king bed, a sleeper sofa, and one bathroom.
 
@@ -44,4 +44,4 @@ You can also enjoy yourself without leaving the Seabreeze South. Swim in the hea
 
 There’s no better way to celebrate another perfect day in paradise than dinner at one of the Island’s favorite restaurants, like NeNe’s, Doreen’s Cup of Joe, or Joey’s Pizza, all just a short walk away.
 
-So for a romantic vacation as perfect as the Marco Island weather, plan your trip to the Seabreeze South today.
+For a romantic vacation as perfect as the Marco Island weather, plan your trip to the Seabreeze South today.
