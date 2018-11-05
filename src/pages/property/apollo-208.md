@@ -1,6 +1,6 @@
 ---
 templateKey: property
-title: 'Apollo #208'
+title: Apollo 208
 images:
   - imagePath: /img/apollo208/apollo208_1.jpg
     test: hello
