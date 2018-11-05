@@ -1,5 +1,6 @@
 ---
 templateKey: index
 title: Foy Properties
-thankYouCopy: Thank you for inquiry! We will reach out as soon as we can.
+thankYouCopy: Thank you for inquiring! We will respond as soon as possible.
 ---
+
