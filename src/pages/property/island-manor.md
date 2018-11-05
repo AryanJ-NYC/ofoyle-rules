@@ -1,6 +1,6 @@
 ---
 templateKey: property
-title: 'Island Manor, J1 - ISMJ1'
+title: 'Island Manor, J1'
 images:
   - imagePath: /img/ismj-living.jpg
     test: hello
