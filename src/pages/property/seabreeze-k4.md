@@ -1,32 +1,32 @@
 ---
 templateKey: property
-title: 'Seabreeze South K-4'
+title: Apollo 203
 images:
-    - imagePath: /img/seabreeze-k4/seabreeze-0496010902.JPG
-      test: hello
-    - imagePath: /img/seabreeze-k4/seabreeze-1111620626.JPG
-    - imagePath: /img/seabreeze-k4/seabreeze-1135360484.jpg
-    - imagePath: /img/seabreeze-k4/seabreeze-1291680287.JPG
-    - imagePath: /img/seabreeze-k4/seabreeze-1849400415.jpg
-    - imagePath: /img/seabreeze-k4/seabreeze-2084440639.JPG
-    - imagePath: /img/seabreeze-k4/seabreeze-2775280804.JPG
-    - imagePath: /img/seabreeze-k4/seabreeze-3018390198.jpg
-    - imagePath: /img/seabreeze-k4/seabreeze-3374900690.JPG
-    - imagePath: /img/seabreeze-k4/seabreeze-3458840753.JPG
-    - imagePath: /img/seabreeze-k4/seabreeze-4020180748.JPG
-    - imagePath: /img/seabreeze-k4/seabreeze-4684250301.JPG
-    - imagePath: /img/seabreeze-k4/seabreeze-4945770191.JPG
-    - imagePath: /img/seabreeze-k4/seabreeze-5350210729.JPG
-    - imagePath: /img/seabreeze-k4/seabreeze-6354340166.JPG
-    - imagePath: /img/seabreeze-k4/seabreeze-6363330640.JPG
-    - imagePath: /img/seabreeze-k4/seabreeze-6765540593.JPG
-    - imagePath: /img/seabreeze-k4/seabreeze-7464360482.JPG
-    - imagePath: /img/seabreeze-k4/seabreeze-7731310680.JPG
-    - imagePath: /img/seabreeze-k4/seabreeze-8074180662.JPG
-    - imagePath: /img/seabreeze-k4/seabreeze-8658910167.JPG
-    - imagePath: /img/seabreeze-k4/seabreeze-9446460221.JPG
-    - imagePath: /img/seabreeze-k4/seabreeze-9846920500.jpg
-    - imagePath: /img/seabreeze-k4/seabreeze-9881680596.JPG
+  - imagePath: /img/seabreeze-k4/seabreeze-0496010902.JPG
+    test: hello
+  - imagePath: /img/seabreeze-k4/seabreeze-1111620626.JPG
+  - imagePath: /img/seabreeze-k4/seabreeze-1135360484.jpg
+  - imagePath: /img/seabreeze-k4/seabreeze-1291680287.JPG
+  - imagePath: /img/seabreeze-k4/seabreeze-1849400415.jpg
+  - imagePath: /img/seabreeze-k4/seabreeze-2084440639.JPG
+  - imagePath: /img/seabreeze-k4/seabreeze-2775280804.JPG
+  - imagePath: /img/seabreeze-k4/seabreeze-3018390198.jpg
+  - imagePath: /img/seabreeze-k4/seabreeze-3374900690.JPG
+  - imagePath: /img/seabreeze-k4/seabreeze-3458840753.JPG
+  - imagePath: /img/seabreeze-k4/seabreeze-4020180748.JPG
+  - imagePath: /img/seabreeze-k4/seabreeze-4684250301.JPG
+  - imagePath: /img/seabreeze-k4/seabreeze-4945770191.JPG
+  - imagePath: /img/seabreeze-k4/seabreeze-5350210729.JPG
+  - imagePath: /img/seabreeze-k4/seabreeze-6354340166.JPG
+  - imagePath: /img/seabreeze-k4/seabreeze-6363330640.JPG
+  - imagePath: /img/seabreeze-k4/seabreeze-6765540593.JPG
+  - imagePath: /img/seabreeze-k4/seabreeze-7464360482.JPG
+  - imagePath: /img/seabreeze-k4/seabreeze-7731310680.JPG
+  - imagePath: /img/seabreeze-k4/seabreeze-8074180662.JPG
+  - imagePath: /img/seabreeze-k4/seabreeze-8658910167.JPG
+  - imagePath: /img/seabreeze-k4/seabreeze-9446460221.JPG
+  - imagePath: /img/seabreeze-k4/seabreeze-9846920500.jpg
+  - imagePath: /img/seabreeze-k4/seabreeze-9881680596.JPG
 ---
 Welcome to a quiet, peaceful community that surrounds you with amenities. This 500 square foot condo sleeps four, with one king bed, one sleeper sofa, and one bathroom. The sun-brightened interior creates a feel of island style living at its best. Seaside images fill the rooms, from the coral-hued tile to wicker chairs to decorative seashells, just like the ones you’ll find in the warm tide pools when you make that short walk from the condo to the beach.
 
