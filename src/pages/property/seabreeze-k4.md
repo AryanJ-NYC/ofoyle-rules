@@ -28,18 +28,18 @@ images:
   - imagePath: /img/seabreeze-k4/seabreeze-9846920500.jpg
   - imagePath: /img/seabreeze-k4/seabreeze-9881680596.JPG
 ---
-Welcome to a quiet, peaceful community that surrounds you with amenities. This 500 square foot condo sleeps four, with one king bed, one sleeper sofa, and one bathroom. The sun-brightened interior creates a feel of island style living at its best. Seaside images fill the rooms, from the coral-hued tile to wicker chairs to decorative seashells, just like the ones you’ll find in the warm tide pools when you make that short walk from the condo to the beach.
+Welcome to Apollo 203! - A quiet, peaceful beach front complex that surrounds you with amenities. This condo sleeps four, with one king bed, one sleeper sofa, and one bathroom with a tub. The sun-brightened interior creates a feel of island style living at its best. 
 
-The summer kitchen comes with all the modern appliances and cookware you need to prepare everything from a romantic dinner to a batch of tropical blended drinks to sip as the sun goes down.
+The kitchen has stainless steel appliances, granite countertops, and a movable island.  Our goal is to create a kitchen that is beautiful and functional, so if you decide to cook, warm up a meal, or prepare some appetizers for sunset, you can enjoy the beautiful beach and ocean views from the condo.
 
-The bedroom features a wall-mounted television and a desk, along with plenty of closet space. Fragrant ocean breezes through the windows will fill your dreams with the warm sands and turquoise water that await you in the morning.
+View the beach, Gulf of Mexico, and sunsets from this wonderful condominium or take a few steps to the walk on the beach.  Only condos on the second floor of the Apollo have the extra large balcony (315 sq. foot!) where you can relax on lounge chairs or sit at the high top table.
 
-Think of all the comforts and conveniences of home and chances are you’ll find them here, from Free Wi-Fi and cable to air conditioning and ceiling fans. You’ve also got beach essentials like an umbrella, beach chairs and a cooler.
+Think of all the comforts and conveniences of home and chances are you’ll find them here, from Wi-Fi and cable TV to air conditioning and ceiling fans. You’ve also got beach essentials like an umbrella, beach chairs and a cooler.
 
-Here at the Seabreeze South, there are countless ways to relax. Take a refreshing swim in the heated pool then lie back on a palm-shaded sun lounger or use one of the gas grills to cook up a poolside barbeque. After lunch, how about a game of shuffleboard? Or you can participate in one of the many community events in the social room.
+Here at the Apollo, there are countless ways to relax and spend your day. Take a refreshing swim in the heated pool then lie back on a palm-shaded sun lounger or stop by the Sunset Grille for an afternoon drink.  There is also a gym and tennis courts on site.
 
-Just a short walk away, the sparking water of Resident’s Beach beckons. You can purchase a pass for access to beach activities, dining at the shaded tables of Paradise Grill, and concerts on the green. Take a parasailing cruise and see the ocean the way the birds see it. Charter a fishing boat or go snorkeling alongside colorful tropical fish. If total relaxation is more your style, lay back on beaches of sugar white sand watching dolphins frolic in the surf.
+There’s no better way to cap off a day at the beach than dinner at the Sunset Grille right down stairs or one of Marco Island’s favorite restaurants, like Nacho Mama's, Da Vinci's, Marco Prime Steak House, or Fin Bistro, all just a short walk from the unit.
 
-There’s no better way to cap off a day at the beach than dinner at one of Marco Island’s favorite restaurants, like NeNe’s, Doreen’s Cup of Joe, Joey’s Pizza or Fin Bistro, all just a short walk from the unit.
+With so many deluxe amenities such a short walk away, Apollo 203 is the tropical beach front paradise you’ve always dreamed about.
 
-With so many deluxe amenities such a short walk from the beach, the Seabreeze South is the tropical paradise you’ve always dreamed about.
+Weekly and monthly rentals are available.  Compare to any beach front hotel rate and you will be surprised at how much you get for around half the price!!
