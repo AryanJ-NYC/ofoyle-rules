@@ -13385,11 +13385,6 @@ slate-dev-logger@^0.1.39, slate-dev-logger@^0.1.43:
   resolved "https://registry.yarnpkg.com/slate-dev-logger/-/slate-dev-logger-0.1.43.tgz#77f6ca7207fcbf453a5516f3aa8b19794d1d26dc"
   integrity sha512-GkcPMGzmPVm85AL+jaKnzhIA0UH9ktQDEIDM+FuQtz+TAPcpPCQiRAaZ6I2p2uD0Hq9bImhKSCtHIa0qRxiVGw==
 
-slate-dev-warning@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/slate-dev-warning/-/slate-dev-warning-0.0.1.tgz#f6c36731babea5e301b5bd504fe64911dd24200a"
-  integrity sha512-QdXa+qmOG46VrTfnzn2gUVzs1WiO3Q+zCv3XomzMNGdgAJjCgHBs3jaeQD845h15loS3OJ181gCNAkB3dby6Hw==
-
 slate-edit-list@^0.11.3:
   version "0.11.3"
   resolved "https://registry.yarnpkg.com/slate-edit-list/-/slate-edit-list-0.11.3.tgz#d27ff2ff93a83bef49131a6a44b87a9558c9d44c"
@@ -13466,17 +13461,18 @@ slate@^0.34.0:
     slate-schema-violations "^0.1.20"
     type-of "^2.0.1"
 
-slate@^0.41.3:
-  version "0.41.3"
-  resolved "https://registry.yarnpkg.com/slate/-/slate-0.41.3.tgz#fa468de5db53afc453a0a7d7875b4de05737a900"
-  integrity sha512-I/ymHWRxtoSOWYKh/SFgW3Vkkojt5ywWf7Wh4oBvaKic/3mAsM1wymyZmhnvSKK59IeE0JJzD4uyyQaM1KEFHA==
+slate@^0.47.0:
+  version "0.47.8"
+  resolved "https://registry.yarnpkg.com/slate/-/slate-0.47.8.tgz#1e987b74d8216d44ec56154f0e6d3c722ce21e6e"
+  integrity sha512-/Jt0eq4P40qZvtzeKIvNb+1N97zVICulGQgQoMDH0TI8h8B+5kqa1YeckRdRnuvfYJm3J/9lWn2V3J1PrF+hag==
   dependencies:
     debug "^3.1.0"
     direction "^0.1.5"
     esrever "^0.2.0"
     is-plain-object "^2.0.4"
     lodash "^4.17.4"
-    slate-dev-warning "^0.0.1"
+    tiny-invariant "^1.0.1"
+    tiny-warning "^0.0.3"
     type-of "^2.0.1"
 
 slice-ansi@^1.0.0:
@@ -14402,10 +14398,15 @@ tiny-inflate@^1.0.0:
   resolved "https://registry.yarnpkg.com/tiny-inflate/-/tiny-inflate-1.0.2.tgz#93d9decffc8805bd57eae4310f0b745e9b6fb3a7"
   integrity sha1-k9nez/yIBb1X6uQxDwt0Xptvs6c=
 
-tiny-invariant@^1.0.2:
+tiny-invariant@^1.0.1, tiny-invariant@^1.0.2:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/tiny-invariant/-/tiny-invariant-1.0.6.tgz#b3f9b38835e36a41c843a3b0907a5a7b3755de73"
   integrity sha512-FOyLWWVjG+aC0UqG76V53yAWdXfH8bO6FNmyZOuUrzDzK8DI3/JRY25UD7+g49JWM1LXwymsKERB+DzI0dTEQA==
+
+tiny-warning@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/tiny-warning/-/tiny-warning-0.0.3.tgz#1807eb4c5f81784a6354d58ea1d5024f18c6c81f"
+  integrity sha512-r0SSA5Y5IWERF9Xh++tFPx0jITBgGggOsRLDWWew6YRw/C2dr4uNO1fw1vanrBmHsICmPyMLNBZboTlxUmUuaA==
 
 tiny-warning@^1.0.0:
   version "1.0.3"
