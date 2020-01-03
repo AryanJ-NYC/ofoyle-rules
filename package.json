@@ -34,7 +34,7 @@
     "react-bootstrap": "^1.0.0-beta.1",
     "react-dom": "^16.6.0",
     "react-helmet": "^5.2.0",
-    "react-image-gallery": "^0.9.1",
+    "react-image-gallery": "^1.0.0",
     "react-typography": "^0.16.13",
     "slate": "^0.47.0",
     "typography": "^0.16.17",
