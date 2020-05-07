@@ -39,7 +39,7 @@
     "slate": "^0.47.0",
     "typography": "^0.16.17",
     "typography-theme-bootstrap": "^0.16.7",
-    "uuid": "^3.2.1"
+    "uuid": "^8.0.0"
   },
   "keywords": [
     "gatsby"
