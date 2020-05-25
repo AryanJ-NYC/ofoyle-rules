@@ -2,8 +2,8 @@
 templateKey: property
 title: Apollo 203
 images:
-  - imagePath: /img/1-203-dr-kitchen-2.jpg
   - imagePath: /img/2-203-lr-dr-2.jpg
+  - imagePath: /img/1-203-dr-kitchen-2.jpg
   - imagePath: /img/3-203-overview.jpg
   - imagePath: /img/4-203-sunset-pic.jpg
   - imagePath: /img/5-203-balcony.jpg
