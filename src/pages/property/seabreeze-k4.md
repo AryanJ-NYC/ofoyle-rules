@@ -2,13 +2,12 @@
 templateKey: property
 title: Apollo 203
 images:
+  - imagePath: /img/close-up.jpg
+  - imagePath: /img/tabletop.jpg
+  - imagePath: /img/wide.jpg
   - imagePath: /img/2-203-lr-dr-2.jpg
   - imagePath: /img/1-203-dr-kitchen-2.jpg
   - imagePath: /img/3-203-overview.jpg
-  - imagePath: /img/4-203-sunset-pic.jpg
-  - imagePath: /img/5-203-balcony.jpg
-  - imagePath: /img/6-203-balcony-view.jpg
-  - imagePath: /img/7-marco-beach.jpg
   - imagePath: /img/8-203-bedroom.jpg
   - imagePath: /img/9-203-bathroom.jpg
   - imagePath: /img/203-dr-kitchen-3.jpg
@@ -18,6 +17,11 @@ images:
   - imagePath: /img/203-lr-dr.jpg
   - imagePath: /img/203-lr-2.jpg
   - imagePath: /img/203-lr-area.jpg
+  - imagePath: /img/4-203-sunset-pic.jpg
+  - imagePath: /img/6-203-balcony-view.jpg
+  - imagePath: /img/7-marco-beach.jpg
+  - imagePath: /img/sky-purple.jpg
+  - imagePath: /img/sky-orange.jpg
   - imagePath: /img/apollo-pool.jpg
   - imagePath: /img/apollo-exterior.jpg
   - imagePath: /img/apollo-tennis-courts.jpg
