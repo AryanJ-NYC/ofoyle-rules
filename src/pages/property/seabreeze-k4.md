@@ -31,7 +31,7 @@ images:
   - imagePath: /img/sunset-grille-bar.jpg
   - imagePath: /img/marco-drone-pic.jpg
 ---
-Welcome to Apollo 203! - A quiet, peaceful beach front complex that surrounds you with amenities. This condo sleeps four, with one king bed, one sleeper sofa, and one bathroom with a tub. The sun-brightened interior creates a feel of island style living at its best. 
+Welcome to Apollo! - A quiet, peaceful beach front complex that surrounds you with amenities. This condo sleeps four, with one king bed, one sleeper sofa, and one bathroom with a tub. The sun-brightened interior creates a feel of island style living at its best. 
 
 The kitchen has stainless steel appliances, granite countertops, and a movable island.  Our goal is to create a kitchen that is beautiful and functional, so if you decide to cook, warm up a meal, or prepare some appetizers for sunset, you can enjoy the beautiful beach and ocean views from the condo.
 
@@ -43,6 +43,6 @@ Here at the Apollo, there are countless ways to relax and spend your day. Take a
 
 There’s no better way to cap off a day at the beach than dinner at the Sunset Grille right down stairs or one of Marco Island’s favorite restaurants, like Nacho Mama's, Da Vinci's, Marco Prime Steak House, or Fin Bistro, all just a short walk from the unit.
 
-With so many deluxe amenities such a short walk away, Apollo 203 is the tropical beach front paradise you’ve always dreamed about.
+With so many deluxe amenities such a short walk away, Apollo is the tropical beach front paradise you’ve always dreamed about.
 
 Weekly and monthly rentals are available.  Compare to any beach front hotel rate and you will be surprised at how much you get for around half the price!!
