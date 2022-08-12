@@ -1,6 +1,6 @@
 ---
 templateKey: property
-title: Apollo 203
+title: Apollo
 images:
   - imagePath: /img/close-up.jpg
   - imagePath: /img/tabletop.jpg
