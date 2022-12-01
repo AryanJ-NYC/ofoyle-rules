@@ -11,28 +11,35 @@ const TemplateWrapper = ({ children }) => (
   <StaticQuery
     query={graphql`
       query LayoutQuery {
-        markdownRemark(frontmatter:{ templateKey:{ eq:"index" }}) {
+        markdownRemark(frontmatter: { templateKey: { eq: "index" } }) {
           frontmatter {
-            title,
+            title
             thankYouCopy
           }
         }
-      }`}
-    render={({ markdownRemark: { frontmatter: { title, thankYouCopy }}}) => (
-      <>
+      }
+    `}
+    render={({
+      markdownRemark: {
+        frontmatter: { title, thankYouCopy },
+      },
+    }) => (
+      <div style={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
         <Header title={title} />
         <Helmet>
           <title>Marco Island Properties | Foy Properties</title>
-          <meta name="description" content="A listing of rental properties available in Marco Island, FL, USA" />
+          <meta
+            name="description"
+            content="A listing of rental properties available in Marco Island, FL, USA"
+          />
         </Helmet>
-        <Container fluid style={{ padding: 0 }}>
-          <div>{children}</div>
+        <Container fluid style={{ display: 'flex', flexGrow: 1, padding: 0 }}>
+          {children}
         </Container>
         <Footer thankYouCopy={thankYouCopy} />
-      </>
+      </div>
     )}
-  >
-  </StaticQuery>
-)
+  ></StaticQuery>
+);
 
-export default TemplateWrapper
+export default TemplateWrapper;
